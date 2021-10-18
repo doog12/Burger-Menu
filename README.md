@@ -4,7 +4,7 @@ Burger menu based on Vanila JS and CSS(SCSS)
 
 ## Technologies
 - HTML5
-> BEM
+- BEM
 - **SCSS**
 - **Vanilla JS**
 
@@ -71,7 +71,7 @@ Burger menu based on Vanila JS and CSS(SCSS)
   <link rel="stylesheet" href="css/burger.css">
 </head>
 ```
-> Or import SCSS-file ```@import "burger.scss"```  
+> Or import SCSS-file ```@import "burger.scss"```
 
 
 - Include the script file before tag ```</body>```
@@ -82,5 +82,18 @@ Burger menu based on Vanila JS and CSS(SCSS)
   <script src="burger.js"></script>
 </body>
 ```
+- Сhange screen width in `@media`
+    > You need to change the width in the media query to the width at which the burger menu should appear on your site.
+```css
+    @media (max-width: "YOUR WIDTH") {
+      .burger-menu {
+        display: block;
+      }
+      .nav {
+        display: none;
+      }
+    }
+```
+
 ## Contact 
 Telegram: @doog121
