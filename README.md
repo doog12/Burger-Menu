@@ -1,7 +1,8 @@
 # Burger menu by Doog12
 
-Burger menu based on Vanila JS and CSS(SCSS)
+Burger menu based on Vanila JS and CSS(SCSS)  
 
+![linkedin](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)
 ## Technologies
 - HTML5
 - BEM
